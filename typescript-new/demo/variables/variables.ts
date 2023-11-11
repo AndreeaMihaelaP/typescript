@@ -10,9 +10,28 @@
 // https://www.typescriptlang.org/docs/handbook/variable-declarations.html#let-declarations
 
 const courseName = "typescript";
+const courseName1 = `typescript`;
 
+const amount = 10;
+const fraction = 10.5;
+
+const oneThousand = 1e3;
+
+const allPermissions = 0o0777;
+
+const hexByte = 0xff;
+
+const binary = 0b010001;
+
+const bigInt = 9000n;
+
+const yes = true;
+const no = false;
+
+// completely missing
 const missing = undefined;
 
+// we know it's missing
 const empty = null;
 
 let someNum = 0;
@@ -25,5 +44,24 @@ someNum = 2;
   let someNum = 1;
 }
 
+{
+  let someNum = 1;
+  // test code
+}
+{
+  let someNum = 1;
+  // test code
+}
+{
+  let someNum = 1;
+  // test code
+}
+
 let hello;
-const whoops;
+
+hello = "hi";
+hello = "hey";
+hello = "hello";
+
+// One opportunity to assign it
+// const whoops; ERROR

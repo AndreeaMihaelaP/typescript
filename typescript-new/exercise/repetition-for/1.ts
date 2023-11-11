@@ -11,6 +11,6 @@
 // 4. Calculate the average again
 // 5. Assert that the average is now 86
 import { strict as assert } from "assert";
+import { log } from "console";
 
 const scores = [90, 77, 83, 96, 76, 88];
-

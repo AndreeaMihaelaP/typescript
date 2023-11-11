@@ -16,3 +16,25 @@
 //
 // Useful links:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+
+for (let i = 0; i <= 5; i++) {
+  console.log(`${i}`);
+}
+
+for (let i = 5; i > 5; i--) {
+  console.log(`${i}`);
+}
+
+for (let i = 1; i <= 500; i++) {
+  if (i === 3) {
+    break;
+  }
+  console.log(`${i}`);
+}
+
+for (let i = 1; i <= 500; i++) {
+  if (i === 3) {
+    continue; // go to the next iteration
+  }
+  console.log(`${i}`);
+}
